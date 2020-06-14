@@ -6,7 +6,11 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello():
+def index():
+    return render_template('index.html')
+
+@app.route('/details')
+def details():
     return render_template('index.html')
 
 @app.route('/parse_data',methods=['GET','POST'])
