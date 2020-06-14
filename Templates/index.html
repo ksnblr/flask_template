@@ -17,18 +17,22 @@
     <script src="../static/js/calc.js"></script>
 </head>
 
-<body class="jumbotron"><h2>Calculate</h2></body>
-<br>
-<br>
-<label>Number 1</label>
-<input id ="f1" name="field1">
-<label>Number 2</label>
-<input id = "f2" name="field2">
-<br>
-<br>
-<button type="button" class="btn btn-primary " onclick="calculate()">Calculate</button>
-<br>
-<br>
-<div id ="results"></div>
+<body>
+    <div class="card bg-secondary" style="width: 25rem;">
+        <h5 class="card-header">Calculator</h5>
+        <div class="card-body">
+            <h5 class="card-title"> Calculate Two Numbers </h5>
+            <p class="card-text">
+                <label>Number 1</label>
+                <input id="f1" name="field1">
+                <br>
+                <label>Number 2</label>
+                <input id="f2" name="field2">
+                <br>
+                <button type="button" class="btn btn-primary " onclick="calculate()">Calculate</button>
+            <div id="results"></div>
+            </p>
+        </div>
+    </div>
 
 </html>
