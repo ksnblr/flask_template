@@ -11,7 +11,7 @@ def index():
 
 @app.route('/details')
 def details():
-    return render_template('index.html')
+    return render_template('Thankyou.html')
 
 @app.route('/parse_data',methods=['GET','POST'])
 def parse_data():
